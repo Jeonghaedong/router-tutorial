@@ -7,7 +7,7 @@ const profileData = {
     description:
       'Frontend Engineer @ Laftel Inc. 재밌는 것만 골라서 하는 개발자'
   },
-  gildong: {
+  homer: {
     name: '홍길동',
     description: '전래동화의 주인공'
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Profile from './Profile';
 import { Link, Route } from 'react-router-dom';
+import WithRouterSample from './WithRouterSample';
 
 function Profiles(){
     return (
@@ -18,6 +19,7 @@ function Profiles(){
              />
             <Route 
                 path="/profiles/:username" component={Profile} />
+            <WithRouterSample />
         </div>
     );
 }
